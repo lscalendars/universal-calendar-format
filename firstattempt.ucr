@@ -1,0 +1,135 @@
+{
+   "file_metadata": {
+      "blabla": "blabla"
+   },
+   "calendar_metadata": {
+      "type": "Tibetan",
+      "locale": "bo",
+      "subtype": "ModernKalacakra",
+      "day_start_time": {
+         "time": "5:00",
+         "scale": "LMST"
+      },
+      "week-scheme": {
+         "day_numbering_scheme": "iso",
+         "day_naming_scheme": "general",
+         "cycle": week
+      },
+      "day_data_scheme": {
+         "includes_missing_dates": true,
+         "absolute_numbering": "modified_julian_day"
+      }
+   },
+   "cycle_graph" : {
+      "week": {
+         "display_equivalent": "week",
+         "cycle_relation": {
+            "type": "constant",
+            "cycle_length": 7,
+            "epoch": {
+               "extended_julian": 0
+            }
+         }
+      },
+      "month": {
+         "display_equivalent": "month",
+         "computation_equivalent": "lunar_month",
+         "cycle_relation": {
+            "type": "non_regular",
+            "double_possible": true,
+            "skipped_possible": true,
+            "min": 27,
+            "max": 30,
+            "average": 29.53
+         },
+         "parents": [
+            "year": {
+               "cycle-relation": {
+                  "type": "non_regular",
+                  "double_possible": true,
+                  "omitted_possible": false,
+                  "min": 11,
+                  "max": 13,
+                  "average": 12.36
+               }
+            }
+         ]
+      },
+      "year": {
+         "display-equivalent": "year",
+         "epoch": {
+            "extended_julian": -4714
+         }
+      }
+   },
+   "year_data": [
+      {"name": 2015, "first_month": 0, "last_month": 1}
+   ],
+   "month_data": [
+      {"year": 1, "date_year": 1, "first_day": 0, "last_day": 29},
+      {"year": 1, "date_year": 2, "first_day": 30, "last_day": 60},
+   ],
+   "day_data": [
+      {"mjd": 57072, "month": 0, "date_month": 1, "private_data": "Losar Trashi Delek!"},
+      {"mjd": 57073, "month": 0, "date_month": 2},
+      {"mjd": 57074, "month": 0, "date_month": 3},
+      {"mjd": 57075, "month": 0, "date_month": 4},
+      {"mjd": 57076, "month": 0, "date_month": 5},
+      {"mjd": 57077, "month": 0, "date_month": 6},
+      {"mjd": 57078, "month": 0, "date_month": 7},
+      {"mjd": 57079, "month": 0, "date_month": 8},
+      {"mjd": 57080, "month": 0, "date_month": 9},
+      {"mjd": 57081, "month": 0, "date_month": 10},
+      {"mjd": 57082, "month": 0, "date_month": 11},
+      {"mjd": 57083, "month": 0, "date_month": 12},
+      {"mjd": 57084, "month": 0, "date_month": 13},
+      {"mjd": 57085, "month": 0, "date_month": 14},
+      {"mjd": 57086, "month": 0, "date_month": 15},
+      {"mjd": 57087, "month": 0, "date_month": 16},
+      {"mjd": 57088, "month": 0, "date_month": 17},
+      {"mjd": 57089, "month": 0, "date_month": 18},
+      {"mjd": 57090, "month": 0, "date_month": 19},
+      {"mjd": 57091, "month": 0, "date_month": 20},
+      {"mjd": 57092, "month": 0, "date_month": 21},
+      {"mjd": 57093, "month": 0, "date_month": 22},
+      {"mjd": 57094, "month": 0, "date_month": 23},
+      {"mjd": 57095, "month": 0, "date_month": 24},
+      {"mjd": 57096, "month": 0, "date_month": 25},
+      {"mjd": 57097, "month": 0, "date_month": 26},
+      {"mjd": 57098, "month": 0, "date_month": 27},
+      {"mjd": 57099, "month": 0, "date_month": 28},
+      {"mjd": 57100, "month": 0, "date_month": 29},
+      {"mjd": 57101, "month": 0, "date_month": 30},
+      {"mjd": 57102, "month": 1, "date_month": 1},
+      {"mjd": 57103, "month": 1, "date_month": 2},
+      {"mjd": 57104, "month": 1, "date_month": 3},
+      {"mjd": null, "month": 1, "date_month": 4, "omitted": true},
+      {"mjd": 57105, "month": 1, "date_month": 5},
+      {"mjd": 57106, "month": 1, "date_month": 6},
+      {"mjd": 57107, "month": 1, "date_month": 7},
+      {"mjd": 57108, "month": 1, "date_month": 8},
+      {"mjd": 57109, "month": 1, "date_month": 9},
+      {"mjd": 57110, "month": 1, "date_month": 10},
+      {"mjd": 57111, "month": 1, "date_month": 11},
+      {"mjd": 57112, "month": 1, "date_month": 11, "double":true},
+      {"mjd": 57113, "month": 1, "date_month": 12},
+      {"mjd": 57114, "month": 1, "date_month": 13},
+      {"mjd": 57115, "month": 1, "date_month": 14},
+      {"mjd": 57116, "month": 1, "date_month": 15},
+      {"mjd": 57117, "month": 1, "date_month": 16},
+      {"mjd": 57118, "month": 1, "date_month": 17},
+      {"mjd": 57119, "month": 1, "date_month": 18},
+      {"mjd": 57120, "month": 1, "date_month": 19},
+      {"mjd": 57121, "month": 1, "date_month": 20},
+      {"mjd": 57122, "month": 1, "date_month": 21},
+      {"mjd": 57123, "month": 1, "date_month": 22},
+      {"mjd": 57124, "month": 1, "date_month": 23},
+      {"mjd": 57125, "month": 1, "date_month": 24},
+      {"mjd": 57126, "month": 1, "date_month": 25},
+      {"mjd": 57127, "month": 1, "date_month": 26},
+      {"mjd": 57128, "month": 1, "date_month": 27},
+      {"mjd": null, "month": 1, "date_month": 28, "omitted"},
+      {"mjd": 57129, "month": 1, "date_month": 29},
+      {"mjd": 57130, "month": 1, "date_month": 30}
+   ]
+}
